@@ -12,7 +12,20 @@
 </head>
 
 <body>
+    <section id="top">
     <h1>hello world</h1>
+    </section>
+
+    <nav> <!--navigate to other sections within the same page-->
+        <ul>
+            <li><a href="#lorem">a bunch of lorem ipsum</a></li>
+            <li><a href="#lists"> random lists</a></li>
+        </ul>
+    </nav>
+
+    <!--anchor tag - connect links-->
+    <h3>this is my learning material!</h3> <!--roadmap.sh is the text that contains file link-->
+    <a href="https://roadmap.sh/dashboard">roadmap.sh</a>
 
     <!--*below* works with mouse hovers above the abbrv only, not screen-->
     <h4>this is <abbr title="hypertext markup language">html</abbr></h4>
@@ -20,11 +33,21 @@
     <hr> <!-- horizontal line-->
 
     <h2>pro web page</h2>
-    <hr>
 
+    <hr>
+    
+    <section id="lorem"> <!--navigation links to this section, semantically named as such-->
     <p>insert some lorem ipsum here</p> <!--spaces > <br>-->
-        <br>sit dolor amet.
+        <br>dolor sit amet.
         <br>...yada yada yada i don't know what comes next
+    
+    <!--type lorem-->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Quod, quos explicabo! Aliquam ipsum animi omnis in deserunt laborum reiciendis 
+        esse ducimus laudantium voluptate nisi, 
+        illum eius nam doloremque voluptates sapiente.</p>
+    </section>
+    <hr>
 
     <p>i <strong>really</strong> need to <em>emphasise</em> this point.</p>
         <br>&nbsp;&nbsp;&nbsp;&nbsp;behold some indentation
@@ -34,17 +57,32 @@
     <hr>
     &lt;&gt;&copy; <!--less than, greater than, copyright -->
 
+    <section id="lists">
+
     <ol> <!--ordered list-->
         <li> here's the first item of the list </li>
         <li> here's the second item of the list </li>
         <li> i broke the chain.</li>
     </ol>
+
     <ul> <!--unordered list-->
         <li>item</li>
         <li>item item</li>
         <li>guess what. i did it again</li>
         </li>
     </ul>
+
+    <dl>
+        <dt>here's a description term</dt>
+        <dd>here's the description for the term.</dd>
+        <dd><strong>strong emphasis on this one</strong></dd>
+    </dl>
+
+    </section>
+    
+    <nav>
+        <p><a href="#top">back to top</a></p>
+    </nav>
 
 </body>
 

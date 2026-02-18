@@ -7,3 +7,15 @@ body {
     color:floralwhite;
     font-family:'Times New Roman', Times, serif;
 }
+
+a {
+    color: lightpink
+}
+
+a:visited {
+    color: coral
+}
+
+a:hover, a:active {
+    color:indianred
+}
